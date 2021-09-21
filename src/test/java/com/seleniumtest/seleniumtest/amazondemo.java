@@ -29,7 +29,7 @@ public class amazondemo {
 		public void testJbkTitleInvalid() {
 			driver.manage().window().maximize();			
 			WebElement SearchBox = driver.findElement(By.id("twotabsearchtextbox"));
-			SearchBox.sendKeys("Hp Laptop");
+			SearchBox.sendKeys("dell Laptop");
 
 		}
 
